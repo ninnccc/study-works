@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&family=Noto+Sans+SC:wght@100..900&family=ZCOOL+KuaiLe&display=swap');
+
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
 }
 
 section{
@@ -9,8 +16,9 @@ section{
   width: 400px;
   flex-direction: column;
   align-items: flex-start;
-  position: relative; 
-  left: 35%;
+  position: relative;
+  margin-top: 150px;
+  left: 55%;
 }
 
 div{
