@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&family=Noto+Sans+SC:wght@100..900&family=ZCOOL+KuaiLe&display=swap');
+
+
+
+body{
+    max-width: 1920px;
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+}
+
+body, section{
+    margin: 0 auto;
+}
+
+section{
+    max-width: 1200px;
+    margin-top: 350px;
+    position: relative; 
+    left: 50%;
+    transform: translate(-50%);
+}
