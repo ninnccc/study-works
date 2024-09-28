@@ -1,0 +1,39 @@
+table{
+  width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid #242424;
+  border-left: 1px solid #242424;
+}
+caption, th, td, button, option{
+  font-size: 18px;
+  line-height: 32px;
+}
+th, td{
+  padding-left: 8px;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+}
+form table, form th, form td{
+    border: 0;
+}
+select{
+    height: 36px;
+    width: 101%;
+}
+input, textarea{
+    width: 100%;
+    line-height: 32px;
+}
+label> input{
+    width: 20px;
+}
+button{
+    background: #242424;
+    color: #fff;
+    padding: 3px 16px;
+    border-radius:3px;
+    border:0;
+    margin-top: 1em;
+}

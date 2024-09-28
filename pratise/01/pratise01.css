@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+container, main{
+    margin: 0 auto;
+}
+
+container{
+    max-width: 1512px;
+}
+
+main{
+    max-width: 1120px;
+}
+
+article{
+    height: 485px;
+    display: flex;
+}
+
+.portfolio img{
+    max-width: 260px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+ .title p{
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 148px;
+    margin-left: 483px;
+}
+
+.title h1{
+    margin-bottom: 58px;
+    margin-left: 310px;
+    font-size: 48px;
+}
+
+.portfolio{
+    max-width: 253px;
+    height: 400px;
+    margin-left: 55px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.portfolio em{
+    max-width: 112px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.portfolio p{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 253px;
+}
+
+button{
+    max-width: 130px;
+    margin-left: 412px;
+    background-color: #141313;
+    color: #FFFFFF;
+    border: hidden;
+    font-size: 1.125em;
+}
+
+button img{
+    max-width: 24px;
+    height: 24px;
+}

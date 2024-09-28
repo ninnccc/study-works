@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <main>
+            <h2>問題與討論</h2>
+            <h4>*為必填</h4>
+            <section>
+                <form action="" method="">
+                    <label for="name">姓名或暱稱 *</label><br>
+                    <input type="text" id="name" name="_name" value="" required><br>
+                    <label for="email">Email *</label><br>
+                    <input type="text" id="email" name="_email" value="" required><br>
+                    <label for="q-type">問題類型</label><br>
+                    <select name="q-type" id="q-type">
+                        <option value="a">請選擇問題類型</option>
+                        <option value="a">A</option>
+                        <option value="a">b</option>
+                    </select><br>
+                    <label for="theme">主題 *</label><br>
+                    <input type="text" id="theme" name="_theme" value="" required><br>
+                    <label for="q-desc">問題描述 *</label><br>
+                    <textarea name="text" id="" cols="30" rows="10" required></textarea><br>
+                    <label for="replyt">適合回覆時間</label><br>
+                    <div class="reply">
+                        <input type="radio" id="9-12" name="test[]" value="9-12">
+                        <label for="reply">上午09:00-12:00</label>
+                        <input type="radio" id="1-5" name="test[]" value="1-5">
+                        <label for="reply">下午01:00-5:00</label>
+                        <input type="radio" id="7-10" name="test[]" value="7-10">
+                        <label for="reply">晚上07:00-10:00</label><br>
+                    </div>
+                    <button type="submit">送出</button>
+                </form>
+            </section>
+       </main>
+    </body>
+</html>
