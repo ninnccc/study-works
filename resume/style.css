@@ -32,10 +32,11 @@ section{
     max-width: 308px;
     height: 672px;
     padding-top: 87px;
+    margin-right: 95px;
 }
 
 section h1{
-    margin-left: 100px;
+    margin-left: 75px;
     line-height: 50px;
     letter-spacing: 5%;
 }
@@ -97,7 +98,7 @@ header{
 article, .web-practise, .poster{
     width: 308px;
     height: 568px;
-    margin-left: 41px;
+    margin-left: 23px;
     margin-top: 37px;
     border-radius: 10px;
     position: relative; 
@@ -110,53 +111,55 @@ article, .web-practise, .poster{
 }
 
 article::after{
-    content:'';
-    position:absolute;
-    bottom:100%;
-    left:88px;
-    border-width:20px;
-    border-style:solid;
-    border-color:transparent;
-    margin-bottom:-3px;
-    border-bottom-width:17px;
-    border-bottom-color:currentColor;color:#dddddd;
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 106px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: -3px;
+    border-bottom-width: 17px;
+    border-bottom-color: currentColor;
+    color: #dddddd;
 }
 
 .web-practise::after{
-    content:'';
-    position:absolute;
-    bottom:100%;
-    left:131px;
-    border-width:20px;
-    border-style:solid;
-    border-color:transparent;
-    margin-bottom:-3px;
-    border-bottom-width:17px;
-    border-bottom-color:currentColor;color:#dddddd;
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 146px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: -3px;
+    border-bottom-width: 17px;
+    border-bottom-color: currentColor;
+    color: #dddddd;
 }
 
 
 .poster::after{
-    content:'';
-    position:absolute;
-    bottom:100%;
-    left:173px;
-    border-width:20px;
-    border-style:solid;
-    border-color:transparent;
-    margin-bottom:-3px;
-    border-bottom-width:17px;
-    border-bottom-color:currentColor;
-    color:#dddddd;
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 189px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: -3px;
+    border-bottom-width: 17px;
+    border-bottom-color: currentColor;
+    color: #dddddd;
 }
 
 
-.name_email{
+.name-email{
     display: flex;
 }
 
 
-.name_email img{
+.name-email img{
     width: 64px;
     height: 64px;
     border-radius: 50px;
@@ -164,7 +167,7 @@ article::after{
     margin-left: 21px;
 }
 
-.name_email ul{
+.name-email ul{
     margin-top: 50px;
     margin-right: 39px;
     list-style: none;
@@ -175,11 +178,15 @@ ul, li {
     padding-left: 0;
 }
 
+h3, h5{
+    margin-left: 21px;
+}
+
 h2{
     margin-left: 21px;
 }
 
-.work_list{
+.work-list{
     list-style: none;
 }
 
